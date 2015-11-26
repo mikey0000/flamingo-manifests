@@ -4,9 +4,11 @@
 
 <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 
+<remote name="mikey0000" fetch="git://github.com/mikey0000/" />
+
 <!-- <remove-project name="platform/hardware/qcom/camera" /> -->
 
-<project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF64.1.1_RB1.05.00.02.172.061" />
+<project path="hardware/qcom/camera" name="camera" groups="device" remote="mikey0000" revision="aosp/AU_LINUX_ANDROID_LA.BF64.1.1_RB1.05.00.02.172.061" />
 
 <project path="device/sony/amami" name="device-sony-amami" groups="device" remote="sony" revision="master" />
 
@@ -75,5 +77,4 @@
 <project path="device/qcom/boringssl-compat" name="boringssl-compat" groups="device" remote="sony" revision="master" />
 
 </manifest>
-
 
